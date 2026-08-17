@@ -149,8 +149,8 @@
           form.appendChild(note);
         }
         note.textContent =
-          'Thank you. Your message has been recorded locally. Please also email us at ' +
-          'editorial@dot-oracle.guide for a guaranteed response.';
+          'This static site cannot send messages automatically. Please email your message to ' +
+          'editorial@dot-oracle.guide and we will get back to you.';
         form.reset();
       });
     });
