@@ -17,7 +17,7 @@ Neutral, compliance-focused content — not financial advice.
 
 ## Local preview
 
-Pages use root-absolute asset paths, so serve from the repository root:
+Pages use relative asset paths, so styles work when the site is served from any subpath (e.g. GitHub Pages project sites). To preview locally:
 
 ```
 python3 -m http.server 8080
