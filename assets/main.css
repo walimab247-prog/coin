@@ -4147,6 +4147,11 @@
   padding-top: calc(var(--spacing) * 0);
 }
 }
+  .xl\:pb-4 {
+  @media (width >= 80rem) {
+  padding-bottom: calc(var(--spacing) * 4);
+}
+}
   .xl\:pb-16 {
   @media (width >= 80rem) {
   padding-bottom: calc(var(--spacing) * 16);
@@ -4604,6 +4609,11 @@
   .\32 xl\:pt-0 {
   @media (width >= 96rem) {
   padding-top: calc(var(--spacing) * 0);
+}
+}
+  .\32 xl\:pb-5 {
+  @media (width >= 96rem) {
+  padding-bottom: calc(var(--spacing) * 5);
 }
 }
   .\32 xl\:pb-20 {
